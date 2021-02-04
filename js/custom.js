@@ -1,4 +1,10 @@
 $(document).ready(function() {
+    $('cService-icon').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidessToScroll: 3
+    });
+    
     $('#autoWidth').lightSlider({
         autoWidth:true,
         loop:true,
